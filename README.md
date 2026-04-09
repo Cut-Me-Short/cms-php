@@ -2,7 +2,7 @@
 
 Official PHP SDK for the CutMeShort CMS platform.
 
-A production-ready SDK for tracking leads and sales events, including support for deferred lead attribution.
+A SDK for tracking leads and sales events, including support for deferred lead attribution.
 
 ## Features
 
