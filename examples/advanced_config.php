@@ -27,10 +27,10 @@ try {
     $response = $trackingApi->trackLead($payload);
     
     if ($response->getStatus()) {
-        echo "✅ Lead Tracking successful!\n";
+        echo "Lead Tracking successful!\n";
         echo "Message: " . $response->getData() . "\n";
     } else {
-        echo "❌ Lead Tracking failed\n";
+        echo "Lead Tracking failed\n";
         echo "Error: " . $response->getData() . "\n";
     }
 } catch (\Exception $e) {
@@ -42,15 +42,15 @@ echo "\n---\n\n";
 $leadPayload = new LeadPayload();
 $leadPayload->setClickId('8ea29346-1ef3-4dca-b472-1a1086998738')
     ->setCustomerExternalId('user_123')
-    ->setEventName('signup')
+    ->setEventName('signup');
 
 try {
     $response = $trackingApi->trackLead($leadPayload);
     if ($response->getStatus()) {
-        echo "✅ Lead Tracking successful with minimal payload!\n";
+        echo "Lead Tracking successful with minimal payload!\n";
         echo "Message: " . $response->getData() . "\n";
     } else {
-        echo "❌ Lead Tracking failed with minimal payload\n";
+        echo "Lead Tracking failed with minimal payload\n";
         echo "Error: " . $response->getData() . "\n";
     }
 } catch (\Exception $e) {
@@ -73,10 +73,10 @@ try {
     $response = $trackingApi->trackSale($salePayload);
     
     if ($response->getStatus()) {
-        echo "✅ Sale Tracking successful!\n";
+        echo "Sale Tracking successful!\n";
         echo "Message: " . $response->getData() . "\n";
     } else {
-        echo "❌ Sale Tracking failed\n";
+        echo "Sale Tracking failed\n";
         echo "Error: " . $response->getData() . "\n";
     }
 } catch (\Exception $e) {
