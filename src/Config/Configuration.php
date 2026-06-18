@@ -64,7 +64,7 @@ class Configuration
      *
      * @var string
      */
-    protected $host = 'https://api.cme.sh';
+    protected $host = 'https://app.cutmeshort.com';
 
     /**
      * User agent of the HTTP request
