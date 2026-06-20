@@ -14,6 +14,11 @@
     ],
     "homepage": "https://www.cutmeshort.com",
     "license": "MIT",
+    "type": "library",
+    "support": {
+        "issues": "https://github.com/Cut-Me-Short/cms-php/issues",
+        "source": "https://github.com/Cut-Me-Short/cms-php"
+    },
     "authors": [
         {
             "name": "CutMeShort",
@@ -37,6 +42,6 @@
         "psr-4": { "CutMeShort\\SDK\\" : "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "CutMeShort\\SDK\\Tests\\" : "tests/" }
+        "psr-4": { "CutMeShort\\SDK\\Tests\\" : "test/" }
     }
 }
