@@ -64,7 +64,7 @@ class Configuration
      *
      * @var string
      */
-    protected $host = 'https://app.cutmeshort.com';
+    protected $host = 'https://www.app.cutmeshort.com';
 
     /**
      * User agent of the HTTP request
